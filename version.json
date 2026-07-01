@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.1.2",
-  "download_url": "https://github.com/jushakrahman/ADP-HR-Releases/releases/download/v1.1.2/ADP_HR_Screener_Setup.exe",
-  "release_notes": "v1.1.2 - Phase 2D: separate aggregate DEI Summary (diversity/equality/inclusion monitoring). Protected attributes are never shown in the candidate ranking and never used for scoring; DEI data is aggregate-only, in a separate view, Excel sheet, and HTML section.",
+  "latest_version": "1.1.3",
+  "download_url": "https://github.com/jushakrahman/ADP-HR-Releases/releases/download/v1.1.3/ADP_HR_Screener_Setup.exe",
+  "release_notes": "v1.1.3 - Fixes the updater elevation bug: Update Now previously failed with [WinError 740] because the installer was launched without admin rights. The updater now requests Windows permission (UAC) so the installer opens normally. Includes the v1.1.2 aggregate DEI Summary.",
   "minimum_version": "1.0.0"
 }
