@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.2.0",
-  "download_url": "https://github.com/jushakrahman/ADP-HR-Releases/releases/download/v1.2.0/ADP_HR_Screener_Setup.exe",
-  "release_notes": "v1.2.0 - Team database (server mode): several HR desktops can share one central candidate database on the office network (optional, off by default; set up in Settings). If the server is unreachable, screening and local reports keep working. DEI monitoring fields (Gender, Nationality, Age) are now shown and filterable in the results table, Candidate database, and reports - for monitoring only, never used for scoring or ranking. Results stay hidden until the first screening finishes. History and settings are preserved on update.",
+  "latest_version": "1.2.1",
+  "download_url": "https://github.com/jushakrahman/ADP-HR-Releases/releases/download/v1.2.1/ADP_HR_Screener_Setup.exe",
+  "release_notes": "v1.2.1 - Fixes an update problem where the installer could show 'Error opening file for writing: ADP_HR_Screener.exe'. The app now closes fully before the installer copies files (a small helper waits for it to close, then opens the installer with the usual Windows permission prompt), and the installer detects if the app is still running and asks you to close it and click Retry. If you still see the file-writing message on this update, close the app, wait a few seconds, and click Retry (do not click Ignore). History, reports, candidate database, and settings are preserved.",
   "minimum_version": "1.0.0"
 }
