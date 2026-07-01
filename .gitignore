@@ -1,0 +1,8 @@
+# This repo tracks ONLY lightweight release-metadata files (version.json,
+# README.md, .gitignore). Installer binaries are distributed exclusively as
+# GitHub Release ASSETS — never committed to git. Keep it that way.
+*.exe
+*.zip
+*.msi
+*.7z
+ADP_HR_Screener_Setup*.exe
